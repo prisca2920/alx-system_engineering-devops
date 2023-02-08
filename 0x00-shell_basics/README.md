@@ -8,4 +8,5 @@ making my first directory
 moving a file
 deleting a file
 deleting a directory
-moving back to previous directory 
+moving back to previous directory
+displaying list of files 
