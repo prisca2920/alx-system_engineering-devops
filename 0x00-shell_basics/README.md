@@ -9,4 +9,5 @@ moving a file
 deleting a file
 deleting a directory
 moving back to previous directory
-displaying list of files 
+displaying list of files
+prints out the type of file 
