@@ -5,4 +5,5 @@ the long format displays directory content in long format
 list more files displays hidden files including .
 I love numbers displays files digit only
 making my first directory
-moving a file 
+moving a file
+deleting a file 
