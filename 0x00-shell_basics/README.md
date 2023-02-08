@@ -7,4 +7,5 @@ I love numbers displays files digit only
 making my first directory
 moving a file
 deleting a file
-deleting a directory 
+deleting a directory
+moving back to previous directory 
