@@ -11,4 +11,5 @@ deleting a directory
 moving back to previous directory
 displaying list of files
 prints out the type of file
-creating a symbolic link 
+creating a symbolic link
+copying html files 
