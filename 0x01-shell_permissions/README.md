@@ -5,3 +5,4 @@ switches to new owner betty
 creates a new file
 adds permission to execute
 giving multiple permissions
+gives everyone permission
