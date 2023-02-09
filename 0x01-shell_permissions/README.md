@@ -11,3 +11,4 @@ setting different permissions
 different script modes
 directories permissions
 creates a directory with permissions
+changes group ownership
