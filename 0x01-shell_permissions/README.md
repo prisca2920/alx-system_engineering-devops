@@ -8,3 +8,4 @@ giving multiple permissions
 gives everyone permission
 gives different permissions
 setting different permissions
+different script modes
