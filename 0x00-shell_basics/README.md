@@ -14,4 +14,5 @@ prints out the type of file
 creating a symbolic link
 copying html files
 moves files beginning with uppercase
-deletes files ending with ~ 
+deletes files ending with ~
+creates new directories 
