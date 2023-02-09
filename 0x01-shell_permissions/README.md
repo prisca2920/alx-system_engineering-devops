@@ -4,3 +4,4 @@ prints out all the groups user is part of
 switches to new owner betty
 creates a new file
 adds permission to execute
+giving multiple permissions
