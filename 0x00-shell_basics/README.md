@@ -15,4 +15,5 @@ creating a symbolic link
 copying html files
 moves files beginning with uppercase
 deletes files ending with ~
-creates new directories 
+creates new directories
+listing a series of commas and periods 
