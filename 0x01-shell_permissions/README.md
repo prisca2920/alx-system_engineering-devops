@@ -13,3 +13,4 @@ directories permissions
 creates a directory with permissions
 changes group ownership
 changes of all ownership
+creates symbolic link permissions
