@@ -10,3 +10,4 @@ gives different permissions
 setting different permissions
 different script modes
 directories permissions
+creates a directory with permissions
