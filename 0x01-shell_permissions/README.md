@@ -6,3 +6,4 @@ creates a new file
 adds permission to execute
 giving multiple permissions
 gives everyone permission
+gives different permissions
