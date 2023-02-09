@@ -13,4 +13,5 @@ displaying list of files
 prints out the type of file
 creating a symbolic link
 copying html files
-moves files beginning with uppercase 
+moves files beginning with uppercase
+deletes files ending with ~ 
