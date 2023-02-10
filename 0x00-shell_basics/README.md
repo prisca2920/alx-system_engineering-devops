@@ -16,4 +16,5 @@ copying html files
 moves files beginning with uppercase
 deletes files ending with ~
 creates new directories
-listing a series of commas and periods 
+listing a series of commas and periods
+creates a magic file 
