@@ -6,3 +6,4 @@ displays last 10 lines
 displays first 10 lines
 displays the third line
 creating a file
+saving current state of directory
