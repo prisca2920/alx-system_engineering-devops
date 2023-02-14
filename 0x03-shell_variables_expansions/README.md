@@ -10,3 +10,4 @@ an addition
 division
 to the power
 to the base of a number
+combination of patterns
