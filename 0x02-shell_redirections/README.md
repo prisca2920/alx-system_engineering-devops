@@ -14,3 +14,4 @@ newest files
 sorts unique files
 finds a pattern root
 counting words
+displays lines and words
