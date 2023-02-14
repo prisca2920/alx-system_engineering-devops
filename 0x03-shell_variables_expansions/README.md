@@ -1,6 +1,6 @@
 creating an alias
 prints hello user
-adds a file to path
+adds a file 
 
 lists global environment
 lists local variables
@@ -9,3 +9,4 @@ creates a global variable
 an addition
 division
 to the power
+to the base of a number
