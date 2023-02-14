@@ -17,3 +17,4 @@ counting words
 displays lines and words
 hides words
 patterns of letters
+removing letters
