@@ -15,3 +15,4 @@ sorts unique files
 finds a pattern root
 counting words
 displays lines and words
+hides words
