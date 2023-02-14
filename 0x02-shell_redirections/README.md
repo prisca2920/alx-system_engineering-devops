@@ -11,3 +11,4 @@ duplicates last line
 deletes js files
 directories
 newest files
+sorts unique files
