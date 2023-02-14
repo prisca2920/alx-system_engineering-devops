@@ -1,2 +1,3 @@
 creating an alias
 prints hello user
+adds a file to path
