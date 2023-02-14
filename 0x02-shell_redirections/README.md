@@ -10,3 +10,4 @@ saving current state of directory
 duplicates last line
 deletes js files
 directories
+newest files
