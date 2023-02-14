@@ -12,3 +12,4 @@ deletes js files
 directories
 newest files
 sorts unique files
+finds a pattern root
