@@ -8,3 +8,4 @@ creates a local variable
 creates a global variable
 an addition
 division
+to the power
