@@ -11,3 +11,4 @@ division
 to the power
 to the base of a number
 combination of patterns
+prints a number with two decimals
