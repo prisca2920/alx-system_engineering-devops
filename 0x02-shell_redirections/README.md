@@ -20,3 +20,4 @@ patterns of letters
 removing letters
 reverses
 lists users and their home directories
+displays empty files
