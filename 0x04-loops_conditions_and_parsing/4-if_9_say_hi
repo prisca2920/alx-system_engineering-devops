@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# uses if condition.
+# uses if and while condition
 i=1
 while [ $i -lt 10 ];
 do 
