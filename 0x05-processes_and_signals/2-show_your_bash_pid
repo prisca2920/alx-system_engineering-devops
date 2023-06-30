@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# displays lines with bash word
+ps -a ux | grep bash
