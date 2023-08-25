@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-# displays a str indefinitely
-while true
-do
-	echo 'To infinity and beyond'
-	sleep 2
-done

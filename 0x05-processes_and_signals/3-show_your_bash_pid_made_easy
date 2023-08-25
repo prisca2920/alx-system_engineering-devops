@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# displays pattern bash again
-pgrep -l bash
