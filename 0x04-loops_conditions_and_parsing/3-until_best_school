@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-# executes a str using until
-i=19
-until [ $i -lt 10 ];
-do
-	echo 'Best School'
-	i=$(( i - 1 ))
-done
