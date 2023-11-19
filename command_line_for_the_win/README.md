@@ -1,14 +1,27 @@
 
-    Take the screenshots of the completed levels as mentioned in the general requirements.
-    Open a terminal or command prompt on your local machine.
-    Use the SFTP command-line tool to establish a connection to the sandbox environment. You will need the hostname, username, and password provided to you for the sandbox environment.
-    Once connected, navigate to the directory where you want to upload the screenshots.
-    Use the SFTP put command to upload the screenshots from your local machine to the sandbox environment.
-    Confirm that the screenshots have been successfully transferred by checking the sandbox directory.
-    Once the screenshots are transferred, you can proceed to push the screenshots to GitHub as mentioned in the initial requirements.
-    Make sure to include the steps you followed to use the SFTP command-line tool in your project’s README.md file. This will help the reviewers understand how you performed the file transfer using SFTP.
+    I took the screenshots of the completed levels as mentioned in the general requirements.
 
-NOTE :
 
-    The screenshoots of completed level should be inside the dir /root/alx-system_engineering-devops/command_line_for_the_win/
+    I Opened a terminal on my local machine.
+
+
+    I used the SFTP command-line tool to establish a connection to the sandbox environment. using the hostname, username, and password provided for the sandbox environment.
+
+
+    Once connected, I navigated to the directory I wanted to upload the screenshots.
+	
+
+I used the lls and lpwd to figure where i was in the local directory on my machine
+
+
+    I used the SFTP 'PUT' command to upload the screenshots from your local machine to the sandbox environment.
+
+
+    I confirmed that the screenshots had been successfully transferred by checking the sandbox directory.
+
+
+    Once the screenshots were transferred, I proceeded to push the screenshots to GitHub as mentioned in the initial requirements.
+    
+
+    The screenshoots of completed level are inside the dir /root/alx-system_engineering-devops/command_line_for_the_win/
 
