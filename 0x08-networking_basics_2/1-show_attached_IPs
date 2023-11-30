@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#displays all active ip
+
+ifconfig -a | grep inet | cut -d: -f2 | cut -d" "  -f1
