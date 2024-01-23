@@ -1,0 +1,8 @@
+#install ngix on your web server
+#listening on port80, GET
+
+apt-get update
+apt-get -y install nginx
+ufw allow 'Nginx HTTP'
+echo "Hello World!" > /var/www/html/index.html
+service nginx start
