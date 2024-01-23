@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 #a script that transfers a file from client to server
 #accepts 4 parameters, the path to the file, ip, username, path to ssh privatekey
 #error if less than 3 args are passed

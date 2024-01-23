@@ -1,4 +1,5 @@
-#install ngix on your web server
+#!/usr/bin/env bash
+##install ngix on your web server
 #listening on port80, GET
 
 apt-get update
