@@ -9,7 +9,7 @@ if __name__ == '__main__':
     baseUrl = "https://jsonplaceholder.typicode.com/users"
     url = baseUrl + "/" + employeeId
     reply = get(url)
-    userName = reply.json().get('name')
+    username = reply.json().get('name')
 
     todoUrl = url + "/todos"
     reply = get(todoUrl)
@@ -18,5 +18,5 @@ if __name__ == '__main__':
     with open('{}.csv'.format(employeeId), 'w') as f:
         for task in tasks:
             f.write('"{}","{}","{}","{}"\n'
-                    .format(employeeId, userName, task.get('completed'),
+                    .format(employeeId, username, task.get('completed'),
                             task.get('title')))
