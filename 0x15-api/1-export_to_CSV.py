@@ -1,22 +1,18 @@
 #!/usr/bin/python3
-"""gathering data from an api"""
-from requests import get
-from sys import argv
+""" exports info to CSV """
+import csv
+import requests
+import sys
 
+if __name__ == "__main__":
+    user_id = sys.argv[1]
+    url = "https://jsonplaceholder.typicode.com/"
+    user = requests.get(url + "users/{}".format(user_id)).json()
+    username = user.get("username")
+    todos = requests.get(url + "todos", params={"userId": user_id}).json()
 
-if __name__ == '__main__':
-    employeeId = argv[1]
-    baseUrl = "https://jsonplaceholder.typicode.com/users"
-    url = baseUrl + "/" + employeeId
-    reply = get(url)
-    username = reply.json().get('name')
-
-    todoUrl = url + "/todos"
-    reply = get(todoUrl)
-    tasks = reply.json()
-
-    with open('{}.csv'.format(employeeId), 'w') as f:
-        for task in tasks:
-            f.write('"{}","{}","{}","{}"\n'
-                    .format(employeeId, username, task.get('completed'),
-                            task.get('title')))
+    with open("{}.csv".format(user_id), "w", newline="") as csvfile:
+        writer = csv.writer(csvfile, quoting=csv.QUOTE_ALL)
+        [writer.writerow(
+            [user_id, username, t.get("completed"), t.get("title")]
+        ) for t in todos]
