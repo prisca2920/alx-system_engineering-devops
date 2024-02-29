@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-#commands used to fix
-sudo service apache2 start
