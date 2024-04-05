@@ -40,7 +40,7 @@ frontend  front-http
         default_backend back
 
 frontend front-https
-        bind *:443 ssl crt /etc/haproxy/certs/www.prisca2920.tech.pem
+        bind *:443 ssl crt /etc/letsencrypt/live/www.prisca2920.tech/fullchain.pem
         http-request set-header X-Forwarded-Proto https
         default_backend back
 
